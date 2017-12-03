@@ -17,5 +17,10 @@ describe("String calculator summation unit tests",  function() {
 
             expect(calculator.sum(inp.toString())).to.equal(inp);
         });
+
+        it("Should return 0 if the input is an empty string", function() {
+            var inp = "";
+            expect(calculator.sum(inp)).to.equal(0)
+        })
     });
 });
