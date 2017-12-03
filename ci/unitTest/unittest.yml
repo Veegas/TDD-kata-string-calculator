@@ -6,5 +6,5 @@ inputs:
 
 
 run:
-  path: "string-calculator/ci/unittest/unittest.sh"
+  path: "string-calculator/ci/unitTest/unittest.sh"
   
